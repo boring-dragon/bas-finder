@@ -1,5 +1,7 @@
 # bas-finder
 
+This is an experimental project I started for fun.
+
 ## Project setup
 ```
 npm install
