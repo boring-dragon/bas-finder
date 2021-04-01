@@ -1,13 +1,13 @@
 <template>
-  <hello-world />
+  <Main />
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld.vue'
+import Main from '@/components/Main.vue'
 
 export default {
   name: 'App',
-  components: { HelloWorld }
+  components: { Main }
 }
 </script>
 
@@ -16,4 +16,11 @@ html {
   width: 400px;
   height: 400px;
 }
+
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
 </style>
